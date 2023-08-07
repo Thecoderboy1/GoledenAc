@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand-icon {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 100%;
+    overflow: hidden;
+
+}
+
+.brand-icon img {
+    width: 100%;
+
+}
+.container {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.container img {
+    height: 500px;
+}
+
+ .wlcm-tile{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px 10px ;
+ }
+ .warning{
+    
+    /* border: 1px solid black; */
+    margin: 10px 0;
+    background-color: red;
+    color: white;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 18px;
+    
+ }
+ .warning p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.First-div p{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.workTitle{
+    padding: 5px 0;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+.workTitle h2{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.serHeading {
+    text-align: center;
+    padding: 10px 0;
+}
+.abtServices {
+     
+    padding: 10px 20px;
+}
+.service-cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.cards{
+     justify-content: center;
+     align-items: center;
+}
+.cardsBg {
+    width: 290px;
+    height: 320px;
+    border-bottom: 10px solid #FFC107;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 30px;
+    margin: 15px 0;
+}
+
+.frntCard {
+    width: 290px;
+    height: 310px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.serImg {
+    width: 95%;
+    height: 139px;
+    margin: 5px auto;
+overflow: hidden;
+
+}
+
+.srTitle {
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+    margin: 5px 0;
+    padding: 5px 0;
+   
+}
+
+.serImg img {
+    width: 100%;
+}
+
+.SerDisc {
+     
+    padding: 2px 10px;
+    padding-left: 16px;
+     
+}
+
+.srOdrBtn {
+    width: 100%;
+    padding: 0px 5px;
+    margin: auto;
+
+
+}
+
+.OdrBtn {
+    width: 100%;
+    padding: 8px 34px;
+    border-radius: 30px;
+    background-color: transparent;
+    outline: none;
+    transition: all.3s ease;
+}
+
+
+.srOdrBtn{
+    width: 100%;
+   justify-content: center; 
+   align-items: center;
+}
+.Owdr-btn {
+    width: 95%;
+    padding: 8px 34px;
+    margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+.srOdrBtn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.OdrBtn:hover{
+    background-color: #ffc107b0;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container img {
+        height: 300px;
+    }
+
+    .cardsBg {
+        width: 90%;
+        height: 376px;
+    }
+
+    .frntCard {
+        width: 100%;
+        height: 366px;
+
+
+    }
+
+    .serImg {
+        height: 180px;
+    }
+
+    .srOdrBtn {
+        margin-top: 15px;
+    }
+}

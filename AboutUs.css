@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.brand-icon {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 100%;
+    overflow: hidden;
+
+}
+
+.brand-icon img {
+    width: 100%;
+
+}
+main{
+    width: 100%;
+    height:  auto;
+    align-items: center;
+}
+.brand-image{
+    width: 300px;
+    height: 300px;
+    border: 10px solid  #FFC107;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 2px 2px 13px black;
+    margin: 30px auto;
+
+}
+.brand-image img{
+    width: 100%;
+}
+.small-text{
+    margin-top: 40px;
+     
+    
+}
+.heading h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color:  #FFC107;
+    outline: black;
+}
+.name{
+    margin-top: 10px;
+}
+.name h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+     
+}
+.abtWrk{
+    width: 100%;
+    padding: 5px;
+}
+.call-button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.call-button button{
+    padding: 8px 34px;
+    font-weight: bold;
+    background-color: #FFC107;
+    border: none;
+    outline: none;
+    
+}

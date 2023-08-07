@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="formStyle.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="externalClass.css">
+    <title>Goleden Eletronic Form</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning ">
+        <div class="container-fluid">
+            <div class="brand-icon">
+                <img src="BrandImage.png" alt="Pic">
+            </div>
+            <a class="navbar-brand" href="#">Golden Reparing Center</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-items">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutUs.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="dispFlex flexDirection ">
+        <div class="content dispFlex flexDirection">
+            <form action="#">
+                <div class="title">
+                    <h3>Your Info</h3>
+                </div>
+               
+                <div class="name">
+                    <input type="text" name="Customer Name: " placeholder="Your Name" required>
+                </div>
+                <div class="Number">
+                    <input type="text" name="Customer Number: " placeholder="Your Phone no" required>
+                </div>
+                <div class="brands">
+                    <select name="Brand" id="Brand">
+                        <option value="Nan" disabled selected>Choose Your Brand</option>
+                        <option value="LG">LG</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="Godrej">Godrej</option>
+                        <option value="Voltas">Voltas</option>
+                        <option value="Panasonic">Panasonic</option>
+                        <option value="Whirlpool ">Whirlpool </option>
+                        <option value="Havells-Lloyd">Havells-Lloyd</option>
+                        <option value="Carrier">Carrier</option>
+                        <option value=" Blue Star">Blue Star</option>
+                        <option value="Daikin">Daikin</option>
+                    </select>
+                </div>
+                <div class="Problem">
+                    <textarea name="Address:" id="Adrs" cols="30" rows="10"
+                        placeholder="Tell Us Your Problem(Your words)"></textarea>
+                </div>
+                <hr class="bg-warning">
+                <div class="Section-Address">
+                    <div class="heading2">
+                        <h3>Address</h3>
+                    </div>
+                    <div class="adrs dispFlex flexDirection">
+                         <input type="text" name="City Name:" placeholder="City">
+                         <input type="text" name="Village Name: " placeholder="Village">
+                         <select name="Distric" id="Distric">
+                            <option value="Nan" selected disabled>Distric</option>
+                            <option value="Palamu">Palamu</option>
+                         </select>
+                         <input type="number" name="Pin code:" placeholder="Pin Code">
+                         <select name="State" id="Distric">
+                            <option value="Jharkhand" selected>Jharkhand</option>
+                         </select>
+                    </div>
+                    <hr class="bg-warning">
+                    <div class="submit-btn">
+                      <button class="Submit-btn bg-warning">Submit Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer dispFlex flexDirection ">
+        <h4>Golden Ac Reparing</h4>
+        <span>Demo, Installition, Reparing</span>
+        <div class="black-bottom dispFlex flexDirection">
+          <div class="icons dispFlex">
+            <p><i class="fa-brands fa-facebook"></i></p>
+            <p><i class="fa-brands fa-instagram"></i></p>
+            <p><i class="fa-brands fa-whatsapp"></i></p>
+             
+          </div>
+          <p class="white">©goldenAc.com - 2023</p>
+        </div>
+    
+      </footer>
+</body>
+
+</html>

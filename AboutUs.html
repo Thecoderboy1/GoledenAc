@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="AboutUs.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="externalClass.css">
+    <title>About Us-Golden Ac</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning ">
+        <div class="container-fluid">
+            <div class="brand-icon">
+                <img src="BrandImage.png" alt="Pic">
+            </div>
+            <a class="navbar-brand" href="#">Golden Ac Reparing</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-items">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="AboutUs.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class=" dispFlex flexDirection">
+        <div class="main-container ">
+            <div class="small-text">
+                <span>A BIT ABOUT ME</span>
+            </div>
+            <div class="heading">
+                <h1>Who Am i ?</h1>
+            </div>
+            <div class="brand-image">
+                <img src="BrandImage.png" alt="">
+            </div>
+            <div class="name">
+                <h2>Golden Khan</h2>
+            </div>
+            <div class="abtWrk">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi provident excepturi autem suscipit nobis
+                mollitia sapiente, voluptas quos consectetur, ex aliquid dolores  
+            </div>
+            <div class="call-button">
+                <button onclick="makeCall('9102942833')">Call Now</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer dispFlex flexDirection ">
+        <h4>Golden Ac Reparing</h4>
+        <span>Demo, Installition, Reparing</span>
+        <div class="black-bottom dispFlex flexDirection">
+            <div class="icons dispFlex">
+                <p><i class="fa-brands fa-facebook"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+                <p><i class="fa-brands fa-whatsapp"></i></p>
+
+            </div>
+            <p class="white">©goldenAc.com - 2023</p>
+        </div>
+
+    </footer>
+    <script>
+        function makeCall(phoneNumber) {
+            // Check if the browser supports the tel: protocol
+            if ('href' in document.createElement('a')) {
+                window.location.href = 'tel:' + phoneNumber;
+            } else {
+                // Fallback for browsers that do not support tel: protocol
+                alert('Your device does not support phone calls.');
+            }
+        }
+    </script>
+</body>
+
+</html>
